@@ -5,6 +5,8 @@ conda create -n <env_name> python=3.8
 conda activate <env_name>
 pip install -r requirements.txt
 ```
+## Download
+[Pretrained model](https://drive.google.com/drive/folders/1bBAQwpJoDjPCkBNk1rjbw5xOYik6kP1l?usp=sharing)
 
 ## Breast UltraSound
 ### Preprocessing

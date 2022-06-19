@@ -6,14 +6,6 @@ conda activate <env_name>
 pip install -r requirements.txt
 ```
 
-## Brain MRI
-### Training
-```
-(cd ./Brain_MRI)
-python3 train.py
-```
-* --wandb turn on wandb tracking(need to login your account first)
-
 ## Breast UltraSound
 ### Preprocessing
 This will turn "Dataset_BUSI_with_GT" into "data"
@@ -64,3 +56,5 @@ python3 miou.py --loss_type <loss_type> --output_dir <output_dir>
 * loss_type: default=dice, choose from ["dice","BCE","MSE"]
 * output_dir: where the image, mask, pred saved
 
+## Ref
+[Breast ultrasond images dataset](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)
